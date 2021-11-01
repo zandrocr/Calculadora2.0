@@ -36,7 +36,7 @@ input[value="="]{
     margin-left: 0;
 }
 
-p{
+#display{
     width: 600px;
     height: 70px;
     display: flex;
@@ -48,10 +48,6 @@ p{
     border-color: rgb(255, 106, 0);
     border-radius: 10px;
     margin-left: 30px;
-}
-
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
 }
 
 div .cor{
@@ -69,7 +65,7 @@ div .cor{
         height: 40px;
         font-size: 15px;
     }
-    p{
+    #display{
         width: 250px;
         height: 70px;
         font-size: 20px;
