@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+input[type="button"]{
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: rgb(255, 106, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+input[value="="]{
+    width: 370px;
+    margin-left: 0;
+}
+
+p{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: bold;
+    font-size: 50px;
+    border: solid 1px;
+    border-color: rgb(255, 106, 0);
+    border-radius: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+div .cor{
+    background-color: rgb(255, 106, 0);
+    color: cornsilk;
+}
