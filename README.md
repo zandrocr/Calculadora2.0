@@ -1,9 +1,9 @@
 # *__Calculadora2.0__*
 
-<!--<div style="display: flex;">
+<div style="display: flex;">
     <img src="https://img.shields.io/badge/ZandroCR-Calculadora-purple">
     <img src="https://img.shields.io/github/license/zandrocr/Contador">
-<div>-->
+<div>
 
 <br>
 
