@@ -55,22 +55,23 @@ div .cor{
     color: cornsilk;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     section{
         width: 400px;
         height: 300px;
     }
     input[type="button"]{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
+        margin: 10px;
         font-size: 15px;
     }
     #display{
-        width: 250px;
-        height: 70px;
+        width: 300px;
         font-size: 20px;
+        margin-right: 30px;
     }
     input[value="="]{
-        width: 218px;
+        width: 230px;
     }
 }

@@ -15,7 +15,7 @@ onload = () => { //Faz com que os botoes recebam os valor estipulados
     document.querySelector('#bt-mul').onclick = () => operacao('*')
     document.querySelector('#bt-div').onclick = () => operacao('/')
     document.querySelector('#bt-men').onclick = () => operacao('-')
-    document.querySelector('#bt-mai').onclick = () => operacao('+')    
+    document.querySelector('#bt-mai').onclick = () => operacao('+')
     document.querySelector('#bt-igua').onclick = calcular
 }
 
@@ -45,7 +45,7 @@ const digito = (n) => {
     if(novoNume){
         valor = ''+n
         novoNume = false
-    }else valor += n    
+    }else valor += n
     atValor()
 }
 
@@ -67,8 +67,8 @@ const limpa = () => {
     atValor()
 }
 
+//Comando para apagar C (apgar unidade)
 const apagar = () => {
-    novoNume = true
     valor = valor.substring(0, valor.length -1)
     atValor()
 }
@@ -89,13 +89,13 @@ const calcular = () =>{
     if(opPen!=null){
         let result
         switch(opPen){
-            case '+': result = antNum + valorAtual() 
+            case '+': result = antNum + valorAtual()
             break
-            case '-': result = antNum - valorAtual() 
+            case '-': result = antNum - valorAtual()
             break
-            case '*': result = antNum * valorAtual() 
+            case '*': result = antNum * valorAtual()
             break
-            case '/': result = antNum / valorAtual() 
+            case '/': result = antNum / valorAtual()
             break
         }
         valor = result.toString().replace('.', ',')
